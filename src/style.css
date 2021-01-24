@@ -1,0 +1,89 @@
+:root {
+  font-size: 100%;
+}
+.link {
+  margin-left: 10px;
+}
+.oferta {
+  color: red;
+  font-size: 2rem;
+  border: 1px solid red;
+  padding: 2px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.autocomplete,
+.component-filter {
+  width: 100vw;
+}
+.autocomplete button {
+  width: 20vw;
+  background-color: green;
+}
+.component-filter {
+  background-color: blue;
+  color: rgba(255, 255, 255, 1);
+}
+.card {
+  border: none;
+  margin-bottom: 2rem;
+}
+.oferta {
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+.menu-oferta {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.licznik h2 {
+  color: red;
+  font-size: 20px;
+}
+
+.zamowienie fieldset {
+  border-bottom: 1px solid green;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: Arial;
+}
+.zamowienie button[type="submit"] {
+  width: 100vw;
+  background-color: blue;
+  color: white;
+  line-height: 4rem;
+}
+.zamowienie button[type="submit"]:active,
+.zamowienie button[type="submit"]:hover {
+  background-color: rgba(0, 255, 255, 1);
+}
+
+.zamowienie > h1 {
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 1px solid red;
+}
+.danie {
+}
+
+.danie h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.danie h2,
+.danie h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+form.logowanie * {
+  width: 100vw;
+}
+
+form.logowanie label + input {
+  color: red;
+}
